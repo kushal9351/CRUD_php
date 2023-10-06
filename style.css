@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+
+/* body{
+    background-color: red;
+} */
+
+h1, p{
+    text-align: center;
+    margin: 10px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+    /* margin: auto;
+    width: 80vw; */
+    background-color: lightcyan;
+}
+
+/* .inpTxt, textarea {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+} */
+
+button{
+    /* text-align: center; */
+    /* margin: auto; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+.submitMsg{
+    color: green;
+}
+
+/* .inpRdo{
+    margin-left: 100px;
+}
+
+label{
+    margin-left: 200px;
+} */
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    /* background-color: black;
+    color: white; */
+    margin: auto;
+}
+
+label{
+    font-size: 25px;
+    /* margin-left: 2vw; */
+}
+
+/* .name{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .label{
+    margin-left: 1vw;
+} */
+
+#rst{
+    margin-bottom: 0px;
+}
+
+button{
+    margin: 10px;
+}
+
+.formError{
+    color: red;
+}
+
+#inputGroupFile02{
+    width: 50%;
+}
